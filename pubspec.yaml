@@ -1,0 +1,9 @@
+name: orel
+version: 0.0.1
+author: Lex Berezhny <lex@damoti.com>
+description: Object Relational Mapper for Dart.
+homepage: http://orel.io
+dependencies:
+  postgresql: any
+dev_dependencies:
+  unittest: any
