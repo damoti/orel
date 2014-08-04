@@ -6,11 +6,10 @@ import 'sql.dart';
 
 class Manager<M> {
 
-  ClassMirror modelMirror;
+  ClassMirror modelMirror = reflectClass(M);
   SQLBuilder sql;
 
   Manager() {
-    modelMirror = reflectClass(M);
     sql = new SQLBuilder(this);
   }
 
