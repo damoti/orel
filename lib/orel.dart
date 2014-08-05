@@ -38,6 +38,10 @@ class Manager<M> {
 
 }
 
+class Addr {
+
+}
+
 main() {
 
 /*  p.addr = new Address();
